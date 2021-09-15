@@ -1,6 +1,7 @@
 {
   "name": "stub",
   "scripts": {
+    "start": "tsc --build . && node lib/main.js",
     "test": "tsc --build . && mocha --require source-map-support/register libtest/health_check"
   },
   "engines": {
