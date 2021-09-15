@@ -1,0 +1,18 @@
+{
+    "extends": "../tsconfig.parent",
+    "compilerOptions": {
+        "rootDir": ".",
+        "outDir": "../lib",
+        "noImplicitReturns": true,
+        "noUnusedLocals": true,
+        "strict": true,
+        "noEmit": false,
+    },
+    "compileOnSave": true,
+    "types": [
+        "node"
+    ],
+    "include": [
+        "**/*.ts"
+    ]
+}

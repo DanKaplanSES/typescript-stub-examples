@@ -1,0 +1,18 @@
+{
+    "extends": "../tsconfig.parent",
+    "compilerOptions": {
+        "rootDir": ".",
+        "outDir": "../libtest",
+        "strict": false,
+        "noEmit": false,
+        // "traceResolution": true
+    },
+    "include": [
+        "**/*.ts"
+    ],
+    "references": [
+        {
+            "path": "../src"
+        }
+    ]
+}

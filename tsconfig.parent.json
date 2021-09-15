@@ -1,0 +1,9 @@
+{
+    "compilerOptions": {
+        "rootDir": ".",
+        "esModuleInterop": true,
+        "module": "CommonJS",
+        "moduleResolution": "node",
+        "composite": true,
+    },
+}

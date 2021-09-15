@@ -1,0 +1,14 @@
+{
+    "compilerOptions": {
+        "rootDir": ".",
+    },
+    "files": [],
+    "references": [
+        {
+            "path": "./src"
+        },
+        {
+            "path": "./test"
+        },
+    ]
+}
